@@ -1,0 +1,62 @@
+.album {
+  
+}
+
+.album__image__wrapper {
+  position: relative;
+}
+
+.album_image {
+ width: 100%;
+}
+
+.album__info {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #545a5f;
+}
+
+.album__info a {
+  color: #545a5f;
+}
+
+.album__info a:hover {
+  color: #9cafbd;
+}
+
+.album__info_title {
+  font-size: 16px;
+}
+
+.album__info_genre {
+  font-size: 14px;
+}
+
+.album__duration_wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.album__duration {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.album__mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75);
+}
+
+.album__mask__control {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

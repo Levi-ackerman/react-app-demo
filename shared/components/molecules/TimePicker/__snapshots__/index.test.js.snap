@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimePicker renders correctly 1`] = `
+<span
+  className="TimePicker__FixDatePickerTimer-earsKW gkECMw"
+>
+  <div>
+    <div
+      className="react-datepicker-wrapper"
+    >
+      <div
+        className="react-datepicker__input-container"
+      >
+        <div
+          className="TimePicker__Wrap-dKmYR kHfeZW"
+          onClick={[Function]}
+        >
+          <input
+            className="TimePicker__Input-dpAhxb lblIJR"
+            disabled={true}
+            onChange={[Function]}
+            placeholder="Select Time"
+            value="12:00 AM"
+          />
+          <span
+            className="Icon__Wrapper-bdEMVZ kRGjUp"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "/asset/mock",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;

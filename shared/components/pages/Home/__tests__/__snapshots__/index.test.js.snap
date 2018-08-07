@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Home
+    </title>
+  </HelmetWrapper>
+  <Heading
+    level={2}
+    palette="grayscale"
+  >
+    Hello world!
+  </Heading>
+  <P>
+    Welcome to our boilerplate!
+  </P>
+</div>
+`;

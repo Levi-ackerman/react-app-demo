@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingBar renders correctly 1`] = `
+<span
+  className="RatingBar__Wrap-jjiBl GilFs"
+>
+  <div
+    className="react-rater"
+    onMouseLeave={[Function]}
+  >
+    <div
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        className="react-rater-star "
+      >
+        ★
+      </div>
+    </div>
+    <div
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        className="react-rater-star "
+      >
+        ★
+      </div>
+    </div>
+    <div
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        className="react-rater-star "
+      >
+        ★
+      </div>
+    </div>
+    <div
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        className="react-rater-star "
+      >
+        ★
+      </div>
+    </div>
+    <div
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <div
+        className="react-rater-star "
+      >
+        ★
+      </div>
+    </div>
+  </div>
+</span>
+`;

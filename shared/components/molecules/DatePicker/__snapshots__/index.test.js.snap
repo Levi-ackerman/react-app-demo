@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker renders correctly 1`] = `
+<div>
+  <div
+    className="react-datepicker-wrapper"
+  >
+    <div
+      className="react-datepicker__input-container"
+    >
+      <div
+        className="DatePicker__Wrap-dBAPUL kKStES"
+        onClick={[Function]}
+      >
+        <input
+          className="DatePicker__Input-jzdVUe kdcKpb"
+          disabled={true}
+          onChange={[Function]}
+          placeholder="Select Date"
+          value="01 May 2018"
+        />
+        <span
+          className="Icon__Wrapper-bdEMVZ kRGjUp"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "/asset/mock",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

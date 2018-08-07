@@ -1,0 +1,54 @@
+.player {
+  display: flex;
+  height: 64px;
+  padding: 8px 16px;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2ebd59;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
+}
+
+.player__thumbnail {
+  width: 48px;
+  height: 48px;
+}
+
+.player_info {
+  flex: 1;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.player_song {
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: -0.4px;
+}
+
+.player_singer {
+  font-size: 12px;
+  color: rgba(255,255,255,0.80);
+  letter-spacing: -0.4px;
+}
+
+.player__control {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.player__controls .player__control__button {
+  background-color: transparent;
+  font-size: 24px;
+  border: none;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: white;
+}
+
+.player__controls .player__control__button:hover {
+  color: white;
+}

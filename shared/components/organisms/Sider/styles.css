@@ -1,0 +1,9 @@
+#sider {
+  min-height: calc(100vh - 64px);
+}
+
+#sider li {
+  border : none;
+  width: calc(100% + 1px);
+  text-align: center;
+}

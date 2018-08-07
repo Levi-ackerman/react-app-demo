@@ -1,0 +1,12 @@
+version: '2'
+services:
+  dockernode:
+    build: .
+    volumes:
+      - ./:/var/app/
+      - /var/app/node_modules
+      - /var/app/jest
+      - /var/app/coverage
+    ports:
+      - '3000:1337'
+    command: start

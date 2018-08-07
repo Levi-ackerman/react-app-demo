@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> renders 1`] = `
+<div
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      About
+    </title>
+  </HelmetWrapper>
+  <P>
+    Welcome to the About page! 
+    <span
+      aria-label="heart"
+      role="img"
+    >
+      ❤️
+    </span>
+  </P>
+</div>
+`;
